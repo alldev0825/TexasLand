@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Old Typography.ttf">
+            <string>OldTypography</string>
+            <string>OldTypography</string>
+            <string>OldTypography</string>
+        </mutableArray>
+        <mutableArray key="UnitedSansCond-Heavy.otf">
+            <string>UnitedSansCond-Heavy</string>
+        </mutableArray>
+        <mutableArray key="UnitedSansCond-Medium.otf">
+            <string>UnitedSansCond-Medium</string>
+            <string>UnitedSansCond-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RewardClaim">
+            <connections>
+                <outlet property="btBack" destination="bgq-sT-zme" id="eec-QV-n1u"/>
+                <outlet property="btmContentText" destination="XgW-Mg-mzY" id="1Ao-6N-gh9"/>
+                <outlet property="claimButton" destination="12" id="18"/>
+                <outlet property="codeTxt" destination="tPV-Br-Bgj" id="Q7f-u9-7w0"/>
+                <outlet property="indicatorView" destination="20" id="21"/>
+                <outlet property="pageTitle" destination="2hE-Tn-ccj" id="rNv-Vt-gIo"/>
+                <outlet property="redeemBg" destination="9tJ-mv-Q9A" id="REP-Tn-8I2"/>
+                <outlet property="redeemView" destination="aFL-tM-zpd" id="p3u-IE-OGj"/>
+                <outlet property="redeemedView" destination="KNQ-EL-Qqi" id="EPE-Rm-Zer"/>
+                <outlet property="redeemedbtn" destination="Zom-Mb-vKh" id="LuX-Vh-Ylp"/>
+                <outlet property="scrollView" destination="52h-MX-dPQ" id="MWa-Sv-8OV"/>
+                <outlet property="titleReward" destination="Mj9-D8-k62" id="ew6-MX-jUO"/>
+                <outlet property="titleReward2" destination="WRQ-Zg-3JU" id="tai-Os-WTM"/>
+                <outlet property="view" destination="1" id="3K4-gL-v82"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="omu-e4-Lf5">
+                    <rect key="frame" x="40" y="176" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="base.png" id="7Ee-DW-e06">
+                    <rect key="frame" x="-1" y="0.0" width="322" height="525"/>
+                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-webview.png" id="4JC-A2-7Cd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bgq-sT-zme">
+                    <rect key="frame" x="5" y="20" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="back.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backButtonAction" destination="-1" eventType="touchUpInside" id="cO0-IK-p7D"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLAIM MY REWARDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2hE-Tn-ccj">
+                    <rect key="frame" x="0.0" y="24" width="320" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="OldTypography" family="Old Typography" pointSize="25"/>
+                    <color key="textColor" red="0.94819825889999998" green="0.92980337140000002" blue="0.90328180790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="52h-MX-dPQ">
+                    <rect key="frame" x="0.0" y="71" width="320" height="410"/>
+                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white_bg.png" id="0lP-zn-08n">
+                            <rect key="frame" x="10" y="6" width="300" height="396"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="aFL-tM-zpd">
+                            <rect key="frame" x="10" y="94" width="300" height="132"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redeem-bg.png" id="9tJ-mv-Q9A">
+                                    <rect key="frame" x="0.0" y="1" width="300" height="131"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="10" adjustsFontSizeToFit="NO" id="Mj9-D8-k62">
+                                    <rect key="frame" x="11" y="1" width="280" height="131"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="OldTypography" family="Old Typography" pointSize="48"/>
+                                    <color key="textColor" red="0.29880997538566589" green="0.22448521852493286" blue="0.16105008125305176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view hidden="YES" contentMode="scaleToFill" id="KNQ-EL-Qqi">
+                            <rect key="frame" x="10" y="94" width="300" height="165"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redeem-bg.png" id="eZ1-s1-zZr">
+                                    <rect key="frame" x="0.0" y="1" width="300" height="156"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottom" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="10" adjustsFontSizeToFit="NO" id="WRQ-Zg-3JU">
+                                    <rect key="frame" x="11" y="15" width="280" height="101"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="OldTypography" family="Old Typography" pointSize="48"/>
+                                    <color key="textColor" red="0.29880997538566589" green="0.22448521852493286" blue="0.16105008125305176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tPV-Br-Bgj">
+                                    <rect key="frame" x="4" y="116" width="292" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="UnitedSansCond-Heavy" family="United Sans Cond" pointSize="25"/>
+                                    <color key="textColor" red="0.51213318109512329" green="0.26558879017829895" blue="0.14938411116600037" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please present this to your cashier at time of purchase" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" adjustsFontSizeToFit="NO" id="XgW-Mg-mzY">
+                            <rect key="frame" x="48" y="256" width="224" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="UnitedSansCond-Medium" family="United Sans Cond" pointSize="18"/>
+                            <color key="textColor" red="0.33329719305038452" green="0.33335861563682556" blue="0.33328908681869507" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Show this screen to your server when you're ready to pay." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" minimumFontSize="10" adjustsFontSizeToFit="NO" id="ztN-Lu-cmy">
+                            <rect key="frame" x="63" y="25" width="191" height="52"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="UnitedSansCond-Medium" family="United Sans Cond" pointSize="18"/>
+                            <color key="textColor" red="0.33329719305038452" green="0.33335861563682556" blue="0.33328908681869507" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Zom-Mb-vKh">
+                            <rect key="frame" x="20" y="350" width="280" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="done.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="redeemedbtnAction:" destination="-1" eventType="touchUpInside" id="Srh-PF-Ndw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="12">
+                            <rect key="frame" x="20" y="352" width="280" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="redeem-now.png">
+                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="rewardClaimedAction" destination="-1" eventType="touchUpInside" id="13"/>
+                            </connections>
+                        </button>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" id="20">
+                            <rect key="frame" x="151" y="234" width="20" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="color" red="0.48435670137405396" green="0.5312468409538269" blue="0.14084351062774658" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </activityIndicatorView>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.50196078430000002" green="0.70980392160000005" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back.png" width="12" height="20"/>
+        <image name="base.png" width="375" height="667"/>
+        <image name="bg-webview.png" width="375" height="64"/>
+        <image name="done.png" width="325" height="45"/>
+        <image name="redeem-bg.png" width="710" height="366"/>
+        <image name="redeem-now.png" width="325" height="45"/>
+        <image name="white_bg.png" width="309" height="400"/>
+    </resources>
+</document>

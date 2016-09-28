@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FB42AD00-287B-4C39-BA79-EF94FF910011</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Souper Salad</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7AD7C964-1F0C-49EF-9653-750634AE3AC2</key>
+		<string>https://github.com/tigerchen/Mobile-iOS-Template.git</string>
+		<key>EF5B9E31-BE95-492D-AC2C-F64ADE5EEAFE</key>
+		<string>https://github.com/tigerchen/Mobile-iOS-Template.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Souper Salad/Souper Salad.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7AD7C964-1F0C-49EF-9653-750634AE3AC2</key>
+		<string>../../../../../Souper Salad/Mobile-iOS-Template</string>
+		<key>EF5B9E31-BE95-492D-AC2C-F64ADE5EEAFE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tigerchen/Mobile-iOS-Template.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF5B9E31-BE95-492D-AC2C-F64ADE5EEAFE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF5B9E31-BE95-492D-AC2C-F64ADE5EEAFE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mobile-iOS-Template</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7AD7C964-1F0C-49EF-9653-750634AE3AC2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mobile-iOS-Template</string>
+		</dict>
+	</array>
+</dict>
+</plist>

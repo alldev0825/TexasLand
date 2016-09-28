@@ -1,0 +1,193 @@
+/* 
+ Localizable.strings
+ 
+ Created by Zeeshan Akhtar on 7/4/12.
+ Copyright 2012 Zapine Technologies. All rights reserved.
+ */
+
+
+"App Name" = "Texas Land & Cattle";
+"App Name title" = "Texas Land & Cattle";
+"Ok" = "Ok";
+"Locations" = "Find a locations";
+"Info" = "Info";
+"My Rewards" = "Your Rewards";
+"Wall" = "Wall";
+"Forget Password Enter Email" = "Please enter email address.";
+"Success" = "Success";
+"Thanks" = "THANKS!";
+"appreciate feedback" = "WE APPRECIATE YOUR FEEDBACK";
+"Could not communicate with the Server" = "Could not communicate with the Server.";
+"Submit Receipt Title" = "Please line up your receipt!";
+"Turn On Location Services" = "Please turn on Location Services (in Settings or in Settings>Privacy) to allow Texas Land & Cattle to reward you!";
+"Network Error" = "Network error occured while trying to communicate with the server, Please try again";
+"No Results Found" = "We could not find a store near that location. Please try again.";
+"No Mail Account Configured" = "No mail account configured";
+"Mail Sent" = "Your message has been sent!";
+"Error" = "Error";
+"Confirm" = "Confirm";
+"Cancel" = "Cancel";
+"Confirm Email Address" =  "Please confirm that your email is \"%@\". We will use this email to contact you about rewards you have earned." ;
+"Reward Redeemed Page" = "Please present this to your cashier at time of purchase";
+
+"About Us Q" = "Mellow is a state of mind, a culture, a way of being. Our mission is to provide delicious food in a fun and creative environment. We are the originators of Classic Southern Pizza, and our uniqueand flavorful crust is a true original. We began from humble roots, born out of the free-wheelin’ hippy culture of the 1970’s. The idea back then was the same as it is now, to make the most delicious, craveable slice of pizza on the planet. The MellowMushroom founders dreamed of a world where happiness could be found in the simplest things; like a mouthwatering slice of pizza and an ice cold beer.";
+
+"About Us" = "About Us";
+"REFER A FRIEND" = "Refer a Friend";
+"TAP TO CONTINUE" = "Tap the button to continue without a referral code";
+
+"Menu" = "Menu";
+"Quality Statement" = "Quality Statement";
+"FAQ" = "Faq";
+"How to get rewards" = "How to Get Rewards";
+"My Profile" = "My Profile";
+"Promo code" = "Enter promo code";
+"Contact Us" = "Contact us";
+"Tutorial" = "How to cleanse";
+"Menu list" = "Menu";
+"Get Social" = "Get Social";
+"ABOUT Pepper Smash" = "ABOUT PEPPER SMASH";
+"FOOD THAT LOVES YOU BACK" = "FOOD THAT LOVES YOU BACK";
+
+"Login" = "Log In";
+"Logout" = "Log Out";
+"Received" = "RECEIVED";
+"Pending" = "PENDING";
+"Rejected" = "REJECTED";
+"Receipt Rejected Error" = "Your Receipt was rejected. Please contact support for more details.";
+"Receipt Received Prompt" = "Your receipt has been received. We will begin processing the image soon.";
+"Receipt Pending Decision Prompt" = "Your receipt is processed and pending decision.";
+"Staff Use Code" = "Code: %d";
+"Free" = "FREE";
+"Remove This Reward" = "Remove this reward?";
+"No Survey Record Found" = "No survey record found.";
+"Configure Mail Settings" = "Please configure your mail settings";
+"Email" = "EMAIL";
+"Address" = "Address";
+"Phone" = "Phone";
+"Password" = "PASSWORD";
+"HOW TO GET REWARDS" = "HOW TO GET REWARDS";
+"Remind me later" = "Remind me later";
+
+"About Text" = "About Texas Land & Cattle";
+
+"Survey Title" = "WHAT DO YOU THINK?";
+"Login Error" = "Please login to continue";
+"Contact Email" = "texaslandcattle@rlvt.net";
+
+/* Forget Password */
+"Retrieve Password Title" = "RESET PASSWORD";
+"Enter Your Email" = "Enter your email and we'll send you the password.";
+
+/* Sign Up */
+"User Sign Up Title" = "SIGN UP WITH EMAIL";
+"User Sign Up SubTitle" = "to keep track of your rewards";
+"User Sign Up Login Label" = "Already a member? Please log in.";
+"User Sign Up Terms Of Use" = "Terms of Use";
+"User Sign Up Create Password" = "PASSWORD";
+"Refer Code" = "REFFERAL CODE (OPTIONAL)";
+
+/* Login */
+"User Login Title" = "PLEASE LOG IN";
+"User Login Sub Title" = "Welcome back!";
+"User Login Forget Password" = "Forgot your password?";
+"User Login Sign Up" = "Not a member? Sign Up";
+
+/* Help */
+"Help Title" = "RECEIPT PHOTO TIPS";
+"Help Label 1" = "• Place receipt on flat surface";
+"Help Label 2" = "• Use adequate lighting";
+"Help Label 3" = "• Make sure text is not blurry";
+"Need More Help" = "Need more help? See our FAQ.";
+
+/* Profile */
+"Profile Title" = "UPDATE YOUR PASSWORD";
+"Profile Old Password" = "OLD PASSWORD";
+"Profile Repeat Password" = "REPEAT PASSWORD";
+"Profile New Password" = "NEW PASSWORD";
+
+/* Promo */
+"Promo Page Title" = "PROMO CODE";
+"Promo Title" = "Got a promo code from us? Please enter your code here.";
+"Promo Sub Title" = "(Case Sensitive, No Spaces)";
+"Promo Not Working" = "Code not working?";
+"Promo Field Place Holder" = "PROMO CODE";
+
+/* Reward */
+"Reward Total Points" = "Reward";
+"Reward Date" = "Date";
+"Reward View Activity" = "View activity";
+"Reward In Store" = "Redeem the Love";
+"Reward Cliam Text" = "Please show your code to a manager";
+"Reward Activity Title" = "RECENT ACTIVITY";
+"Reward Time Remaining Text" = "TIME REMAINING";
+"Reward Confirmation Dialog Title" = "Are you sure?";
+"Reward Confirmation Dialog Text" = "Use this reward?";
+"After Redeemed" = "Your reward has been redeemed.  You can no longer use this reward";
+"Tap Button" = "Tap Button to send Gift";
+"Reward Type 1" = "Please tap “Redeem Reward” after you have asked your server for your check. This offer cannot be combined with other offers.";
+"Reward Type 2" = "On the next page you will be asked to provide shipping information so we can send you your reward.";
+
+/* Submit */
+"Submit Please Wait" = "WE'RE UPLOADING YOUR RECEIPT...";
+"Submit Uploading Text" = "WE'RE UPLOADING YOUR RECEIPT...";
+"Submit Recieved" = "Hemos recibido su recibo";
+
+/* Main Login */
+"Main Login Title" = "WELCOME TO Moshi Moshi";
+"Main Login Returning Users" = "Returning users";
+"Main Login Terms And Conditions" = "Terms of Use | Privacy policy";
+
+/*Have A Referral?*/
+"HAVE A REFERRAL?" = "HAVE A REFERRAL?";
+
+/* Menu */
+"Menu Title" = "OUR MENU";
+"Menu Combos" = "Combos";
+"Menu Kids Meals" = "Kids Meals";
+"Menu Drinks" = "Drinks";
+"Menu Tailgate Boxes" = "Tailgate Boxes";
+
+/* How To Get Rewards */
+"How To Get Rewards Title" = "HOW TO GET REWARDS";
+
+/* Settings */
+"Settings Push Notifications" = "Push notifications";
+"Settings Location Services" = "Location services";
+"Settings Reset Password" = "Reset Password";
+
+/* Extras */
+"Deal List Title" = "Extras";
+
+/* Offer */
+
+"OFFER Title" = "Frequently Asked Questions";
+
+/* FAQ */
+
+////////
+////////
+
+"FAQ Title" = "Frequently Asked Questions";
+"FAQ Q1" = "¿Cómo funciona?";
+"FAQ A1" = "Para acumular pesos solo tienes que tomar y mandar una foto de tu recibo de compra usando la APP. Simplemente selecciona la ubicación en la que estas y aprieta el botón de “sube”.";
+
+"FAQ Q2" = "¿Cómo se cuantos pesos tengo?";
+
+"FAQ A2" = "Escoge la opción de premios en la pantalla de tu app para ver tus pesos acumulados y los premios a los que podrás ganar.";
+
+"FAQ Q3" = "¿Cómo obtengo mis premios?";
+
+"FAQ A3" = "Los regalos a los que tienes opción están en el botón de Premios. Un botón gris de premio significa que los puedes obtener en ese momento, un botón naranja significa que todavía estas acumulando pesos para ganarlo. Para obtener el premio solo selecciona el premio en gris y se convertirá en un cupón digital.";
+
+"FAQ Q4" = "Cómo uso un cupón digital?";
+
+"FAQ A4" = "Después de seleccionar un premio en gris, ve un botón morado que dice \“Usar\". Antes de pulsar el botón, obtenga tu mesero. Ya que tendrás 2 minutos para mostrar el camarero el código único de 3 dígitos que aparece en la página siguiente. Después de pulsar \“Usar\", y la notificación de arriba, muestra el camarero tu código en la siguiente pantalla y te dará el premio.";
+
+"FAQ Q5" = "Tengo problemas para subir mi recibo a la APP. ¿Qué hago?";
+
+"FAQ A5" = "Mándanos un email con tu recibo y tu cuenta de email a texaslandcattle@rlvt.net describiendonos tu problema. Nosotros actualizaremos tu cuenta con los pesos que ganaste.";
+
+"FAQ Q6" = "Puedo hacer sugerencias?";
+
+"FAQ A6" = "Claro! Estaremos muy contentos de escúchalas en nuestro mail de texaslandcattle@rlvt.net";
